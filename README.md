@@ -2,7 +2,7 @@
 
 This is the Webscraping project based on Flask Webframework with Python. The basic functionality are as follows:
 
-* Click Get Names button on Front page
+* Click `Get names` button on Front page
 * The Button will redirect to the List of StarWar ships and it's respective Hyperdrive ratings.
 
 
