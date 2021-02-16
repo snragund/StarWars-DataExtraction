@@ -6,7 +6,7 @@ This is the Webscraping project based on Flask Webframework with Python. The bas
 * The Button will redirect it to List of StarWar ships and it's respective Hyperdrive ratings.
 
 
-##Project Features
+## Project Features
 framework follows page object pattern
 The project contain 5 files
 * templates folder - Inside which `Index.html` file is saved
@@ -15,7 +15,7 @@ The project contain 5 files
 * Procfile
 * requirements.txt
 
-##Getting Started
+## Getting Started
 To enjoy the data extraction process or webscraping using Python Flask Webframework, just download the project or clone repository. You need to install packages using pip according to requirements.txt file. Run the command below in terminal:
 
 `$ pip install -r requirements.txt`
