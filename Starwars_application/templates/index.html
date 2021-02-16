@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="static/styles.min.css">
+</head>
+
+<body>
+        <div class="container">
+            <div class="row">
+                <h2>Extract Star Wars Ship names</h2>
+            </div>
+            <form action="/names", method="post">
+                <button class="btn btn-dark" type="submit" name="get_names">Get Names</button>
+            </form>
+            
+        </div>
+       <div>
+            <table border="2">
+                <thread>
+                    <tr>
+                        <th>Name of Ships</th>
+                    </tr>
+                </thread>
+
+                {% for name in names_list %}
+                <tr>
+                    <td>{{ name }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+
+       </div>
+
+
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
