@@ -6,7 +6,7 @@ This is the Webscraping project based on Flask Webframework with Python. The bas
 * The Button will redirect to the List of StarWar ships and it's respective Hyperdrive ratings.
 
 
-## Project Features
+## Project Structure
 
 The project contain 5 files
 * templates folder - Inside which `Index.html` file is saved
