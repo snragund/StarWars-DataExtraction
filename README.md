@@ -7,7 +7,7 @@ This is the Webscraping project based on Flask Webframework with Python. The bas
 
 
 ## Project Features
-framework follows page object pattern
+
 The project contain 5 files
 * templates folder - Inside which `Index.html` file is saved
 * app.py
